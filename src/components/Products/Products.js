@@ -7,6 +7,9 @@ const Products = () => {
    // const [cart, setCart]=useState([])
     const [cart, setCart]=useState([]);
     //console.log(cart);
+
+    const [randomName, randomItem]=useState([]);
+
     useEffect(()=>{
         fetch('product.json')
         .then(res=>res.json())
@@ -20,15 +23,46 @@ const Products = () => {
         setCart(newCart);
         
     }
-    const resetName=()=>{
-      //console.log(product1);
+
+
+    let total=[];
+    let totalId=[];
+
+    for(const product of cart){
        
-      const newCart = [];
-      setCart(newCart);
-  }
+     
+       if (!total.includes(product.name)) {
+      
+        total.push(product.name);
+      }
+       
+       totalId.push(product.id);
         
     }
 
+
+    const clearNameArray=()=>{
+        
+  
+          const random = Math.floor(Math.random() * total.length);
+         
+  
+  
+          const randomValue =[...randomName,total[random]]
+          randomItem(randomValue);
+      }
+
+
+
+      const resetName=()=>{
+      
+         
+        const newCart = [];
+        setCart(newCart);
+
+        const randomValue=[];
+        randomItem(randomValue);
+    }
 
 
     return (
@@ -42,7 +76,11 @@ const Products = () => {
             }
            </div>
            <div className='one-cart'>
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart} resetName={resetName} clearNameArray={clearNameArray}></Cart>
+                <div>
+          <p className=''>Random name: </p>
+          <p className=''>{randomName} </p>
+          </div>
            </div> 
         </div>
     

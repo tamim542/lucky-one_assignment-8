@@ -8,7 +8,7 @@
 
 .cart{
     display: grid;
-    grid-template-columns: 7fr 1fr;
+    grid-template-columns: 6fr 1fr;
 }
 .cart-design{
     display: grid;
@@ -18,8 +18,8 @@
 .one-cart{
     padding-left: 15px;
     position: static;
-    width: 200px;
-    height: 410px;
+    width: 250px;
+    height: 510px;
     box-shadow: 10px 10px 10px 10px gray;
    
     border-radius: 8px;

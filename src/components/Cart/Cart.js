@@ -4,7 +4,7 @@ import './Cart.css'
 const Cart = (props) => {
     const {cart}=props;
  
-    const [randomName, randomItem]=useState([]);
+    // const [randomName, randomItem]=useState([]);
  
     let total=[];
     let totalId=[];
@@ -20,29 +20,33 @@ const Cart = (props) => {
        totalId.push(product.id);
         
     }
+///tetstet
+    // const clearNameArray=()=>{
+    //   //  const total = ["January", "February", "March", "April", "May", "June", "July"];
 
-    const clearNameArray=()=>{
-      //  const total = ["January", "February", "March", "April", "May", "June", "July"];
-
-        const random = Math.floor(Math.random() * total.length);
-        console.log( total[random]);
+    //     const random = Math.floor(Math.random() * total.length);
+    //     console.log( total[random]);
 
 
-        const randomValue =[...randomName,total[random]]
-        randomItem(randomValue);
-    }
+    //     const randomValue =[...randomName,total[random]]
+    //     randomItem(randomValue);
+    // }
+    
 
     return (
         <div>
            <div>
             <p>Selected Watch</p>
-            <p className='name-design'>name: {total} </p>
-            <button onClick={clearNameArray}><p>Choose One For Me</p></button>
-            <button onClick={resetName}><p>Choose One For Me</p></button>
+            <p className='name-design'>name: </p>
+           <ul>
+             {
+               total.map(item=><li>{item}</li>)
+             }
+           </ul>
+            <button onClick={props.clearNameArray}><p>Choose One For Me</p></button><br/>
+            <button onClick={props.resetName}><p>Choose Again</p></button>
           </div>
-          <div>
-          <p className=''>Random name: {randomName} </p>
-          </div>
+         
         </div>
     );
 };
