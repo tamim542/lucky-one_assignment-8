@@ -20,6 +20,16 @@ const Products = () => {
         setCart(newCart);
         
     }
+    const resetName=()=>{
+      //console.log(product1);
+       
+      const newCart = [];
+      setCart(newCart);
+  }
+        
+    }
+
+
 
     return (
         <div >
