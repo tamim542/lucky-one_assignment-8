@@ -35,6 +35,18 @@ const Products = () => {
                 <Cart cart={cart}></Cart>
            </div> 
         </div>
+    
+    <div className='question-answer'>
+        <h1>How does react work?</h1>
+        <p>The react js is mainly used for the user interface. React js works two component based one is functional component
+            and another is class component. React is a declarative and efficient JavaScript library for building user interfaces. React js compose complex UIs from small chunk and isolated pieces of code called “components”.  We use components to tell React what we want to see on the screen. 'npx' (node package execute) create react app npx makes npm work easier. We do not have to create many files for npx. Such as package.json. 
+        </p>
+        <h1>Props vs State</h1>
+        <p>State  is internal and controlled by the component. Props are external and controlled by whatever renders the component. Props send data. Props uses as a function parameter. Props are read-only. State changes can be asynchronous. Props is immutable and state is mutable. Props allow to pass data from one component to other components as an argument but state does not work. State holds information about the components.
+</p>
+    </div>
+
+
     </div>
     );
 };
