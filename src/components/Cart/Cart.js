@@ -1,14 +1,34 @@
 import React from 'react';
-
+import './Cart.css'
 const Cart = (props) => {
     const {cart}=props;
-    console.log('cart:'+props)
+   
+
+    let total=[];
+    let totalId=[];
+
+    for(const product of cart){
+       // total= total+ '\n'  +product.name;
+     
+       if (!total.includes(product.name)) {
+      
+        total.push(product.name);
+      }
+       
+       totalId.push(product.id);
+        
+    }
+
+    const clearNameArray=()=>{
+        total=[];
+    }
+
     return (
         <div>
-            <p>{props.cart.length}</p>
+           
             <p>Selected Watch</p>
-            <p>name:{props.cart.name}</p>
-            <p>whoa</p>
+            <p className='name-design'>name: {total} </p>
+            <button onClick={clearNameArray}><p>Choose One For Me</p></button>
         </div>
     );
 };

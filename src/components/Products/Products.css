@@ -16,6 +16,8 @@
 }
 
 .one-cart{
+    padding-left: 15px;
+    position: static;
     width: 200px;
     height: 410px;
     box-shadow: 10px 10px 10px 10px gray;
@@ -24,3 +26,26 @@
     margin: 10px;
     position: relative;
 }
+
+@media screen and (max-width:962px) {
+    .cart-design{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:556px) {
+
+    .one-cart{
+        padding-left: 10px;
+        position: static;
+        width: 160px;
+        height: 410px;
+        box-shadow: 10px 10px 10px 10px gray;
+       
+        border-radius: 8px;
+        margin: 5px;
+        position: relative;
+    }
+}
+
