@@ -1,0 +1,102 @@
+[
+    {
+      "id": "1",
+      "category": "Anaog watch",
+      "name": "smart-watch-realistic-image-black",
+      "seller": "Cartier",
+      "price": 420,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+      "quantity": 0
+    },
+    {
+      "id": "2",
+      "category": "Digital watch",
+      "name": "smart-watch-mi-brand",
+      "seller": "Mi",
+      "price": 700,
+      "img": "https://www.freepik.com/free-psd/realistic-smart-watch-mockup_21544738.htm",
+      "quantity": 0
+    },
+    {
+      "id": "3",
+      "category": "Digital watch",
+      "name": "close-up-mart-watch",
+      "seller": "Cartier",
+      "price": 3400,
+      "img": "https://www.freepik.com/free-psd/realistic-smart-watch-mockup_21700555.htm",
+      "quantity": 0
+    },
+    {
+      "id": "4",
+      "category": "Automic watch",
+      "name": "smart-watch-vendor",
+      "seller": "Cartier",
+      "price": 1000,
+      "img": "https://www.freepik.com/free-psd/realistic-smart-watch-mockup_21700565.htm",
+      "quantity": 0
+    },
+    {
+      "id": "5",
+      "category": "Analog watch",
+      "name": "realistic-smart-watch-world",
+      "seller": "Cartier",
+      "price": 600,                                                                                                                                                                                                                                 
+      "img": "https://www.freepik.com/premium-psd/realistic-smart-watch-mockup_21544757.htm",
+      "quantity": 0
+    },
+    {
+      "id": "6",
+      "category": "Digital watch",
+      "name": "realistic-smart-watch-mockup2",
+      "seller": "Cartier",
+      "price": 800,
+      "img": "https://www.freepik.com/premium-psd/realistic-smart-watch-mockup_21544729.htm",
+      "quantity": 0
+    },
+    {
+      "id": "7",
+      "category": "Analog watch",
+      "name": "elegant-watch-with-silver",
+      "seller": "Mi",
+      "price": 920,
+      "img": "https://www.freepik.com/free-photo/elegant-watch-with-silver-golden-chain-isolated_12152327.htm",
+      "quantity": 0
+    },
+    {
+      "id": "8",
+      "category": "Digital watch",
+      "name": "closeup-shot-golden-watch",
+      "seller": "Cartier",
+      "price": 900,
+      "img": "https://www.freepik.com/free-photo/closeup-shot-golden-watch-isolated_12751290.htm",
+      "quantity": 0
+    },
+    {
+      "id": "9",
+      "category": "Digital watch",
+      "name": "illustration-new-year-decoration",
+      "seller": "Blancpain",
+      "price": 400,
+      "img": "https://www.freepik.com/free-vector/illustration-new-year-decoration_3139403.htm",
+      "quantity": 0
+    },
+    {
+      "id": "10",
+      "category": "Digital watch",
+      "name": "round-wall-quartz-clock-red",
+      "seller": "Blancpain",
+      "price": 850,
+      "img": "https://www.freepik.com/free-vector/round-wall-quartz-clock-red-color-isolated-white-background_13031909.htm",
+      "quantity": 0
+    },
+    {
+      "id": "11",
+      "category": "Automic watch",
+      "name": "wall-clock-isolated",
+      "seller": "Mi",
+      "price": 500,
+      "img": "https://www.freepik.com/free-vector/wall-clock-isolated_10602691.htm",
+      "quantity": 0
+    }
+  ]
+  
