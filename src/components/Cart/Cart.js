@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import './Cart.css'
 const Cart = (props) => {
     const {cart}=props;
  
-    // const [randomName, randomItem]=useState([]);
+    
  
     let total=[];
     let totalId=[];
 
     for(const product of cart){
-       // total= total+ '\n'  +product.name;
+       
      
        if (!total.includes(product.name)) {
       
@@ -20,18 +20,7 @@ const Cart = (props) => {
        totalId.push(product.id);
         
     }
-///tetstet
-    // const clearNameArray=()=>{
-    //   //  const total = ["January", "February", "March", "April", "May", "June", "July"];
 
-    //     const random = Math.floor(Math.random() * total.length);
-    //     console.log( total[random]);
-
-
-    //     const randomValue =[...randomName,total[random]]
-    //     randomItem(randomValue);
-    // }
-    
 
     return (
         <div>

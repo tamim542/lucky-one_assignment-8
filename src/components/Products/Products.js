@@ -4,9 +4,9 @@ import Shop from '../Shop/Shop';
 import './Products.css';
 const Products = () => {
     const [products, setProducts]=useState([])
-   // const [cart, setCart]=useState([])
+   
     const [cart, setCart]=useState([]);
-    //console.log(cart);
+    
 
     const [randomName, randomItem]=useState([]);
 
@@ -17,7 +17,7 @@ const Products = () => {
     },[])
 
     const handleAddTOCart=(product1)=>{
-      //console.log(product1);
+     
        
         const newCart=[...cart,product1]
         setCart(newCart);
